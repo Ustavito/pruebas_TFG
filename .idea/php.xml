@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/allure-framework/allure-phpunit" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/allure-framework/allure-php-api" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/composer" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phpunit/phpunit-selenium" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/smalot/pdfparser" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/php-webdriver/webdriver" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/mikey179/vfsstream" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/allure-phpunit-example-master/vendor/sebastian/global-state" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/allure-phpunit-example-master/vendor/autoload.php" phpunit_phar_path="" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

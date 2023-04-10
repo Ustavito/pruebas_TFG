@@ -1,0 +1,11 @@
+{
+    "require": {
+        "php":">=7.1",
+        "allure-framework/allure-phpunit": "~1.2.0",
+        "phpunit/phpunit":"^9",
+
+        "phpunit/phpunit-selenium": "*",
+        "php-webdriver/webdriver":"1.8.0",
+        "smalot/pdfparser": "^2.3"
+    }
+}

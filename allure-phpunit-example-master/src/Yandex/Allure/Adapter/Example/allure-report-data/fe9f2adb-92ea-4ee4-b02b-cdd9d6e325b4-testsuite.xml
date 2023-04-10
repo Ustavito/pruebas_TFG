@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1680651347798" stop="1680651359480" version="1.4.0">
+  <name>test\HorariosWebTest</name>
+  <test-cases>
+    <test-case start="1680651347801" stop="1680651357406" status="passed">
+      <name>test_horarios_1</name>
+    </test-case>
+    <test-case start="1680651357406" stop="1680651359479" status="broken">
+      <name>test_horarios_2</name>
+      <failure>
+        <message>file_get_contents(pdfs/horario.pdf): failed to open stream: No such file or directory</message>
+        <stack-trace>#0 [internal function]: PHPUnit\Util\ErrorHandler-&gt;__invoke(2, 'file_get_conten...', 'D:\\Usti\\Descarg...', 79, Array)
+#1 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\smalot\pdfparser\src\Smalot\PdfParser\Parser.php(79): file_get_contents('pdfs/horario.pd...')
+#2 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\src\Yandex\Allure\Adapter\Example\HorariosWebTest.php(142): Smalot\PdfParser\Parser-&gt;parseFile('pdfs/horario.pd...')
+#3 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\src\Framework\TestCase.php(1608): test\HorariosWebTest-&gt;test_horarios_2()
+#4 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\src\Framework\TestCase.php(1214): PHPUnit\Framework\TestCase-&gt;runTest()
+#5 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\src\Framework\TestResult.php(728): PHPUnit\Framework\TestCase-&gt;runBare()
+#6 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\src\Framework\TestCase.php(964): PHPUnit\Framework\TestResult-&gt;run(Object(test\HorariosWebTest))
+#7 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\src\Framework\TestSuite.php(684): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\src\Framework\TestSuite.php(684): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\src\TextUI\Command.php(144): PHPUnit\TextUI\TestRunner-&gt;run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#11 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\src\TextUI\Command.php(97): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 D:\Usti\Descargas\allure-phpunit-example-master\allure-phpunit-example-master\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>
